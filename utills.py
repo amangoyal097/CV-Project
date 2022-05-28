@@ -83,7 +83,7 @@ def load_data(base_path, path, cuts=2):
     temp = 0
 
     if path == "train":
-        temp = 25000
+        temp = 30000
 
     
     data = pd.read_csv(base_path + '{}.csv'.format(path))
